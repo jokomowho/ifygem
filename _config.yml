@@ -1,0 +1,27 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://yoursite.com
+title: ifyGem Educational Services
+email: ifygem@gmail.com
+author: Joy Okomowho
+description: > # "Consultation for Educational Services, Computer Training and Web Portal."
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: twitter
+    url: https://twitter.com/ifygemeducation
+  - title: facebook
+    url: https://www.facebook.com/ifygemeducationalservices2015

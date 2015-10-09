@@ -1,0 +1,15 @@
+---
+layout: default
+img: monitor.jpg
+category: Services
+title: 
+description: |
+---
+<ul style="font-weight:300; padding-left:1.3em;">
+	<li><h4>Study Abroad?</h4></li>
+	<li><h4>Study in Nigeria?</h4></li>
+	<li><h4>International Baccalaureate?</h4></li>
+	<li><h4>Undergraduate and Post Graduate Programmes?</h4></li>
+	<li><h4>Capacity Building?</h4></li>
+</ul>
+
