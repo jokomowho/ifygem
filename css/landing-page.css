@@ -151,7 +151,7 @@ h6 {
     font-weight:300; font-size:18px;
 }
 .ul-style{
-    font-size:15px; font-weight:300; color:#13183D; padding-left:1.3em;
+    font-size:15px; font-weight:300; color:#13183D; padding-left:.2em; list-style: none;
 }
 .logo{
     margin-top:-.2em;
