@@ -1,64 +1,74 @@
 
 <section id="home" style="">
-<!-- Header -->
-	<div class="intro-header" style="margin-top:0px; padding-top:0px;">
+ <div class="navbar-wrapper">
+      <div class="container">
 
-
-		<div class="intro-header-inner">
-            <!-- Navigation -->
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header page-scroll">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="#home" style="padding-top:0;"><img src="img/logo.png" class="logo"><!--{{ site.title }}--></a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">  
-                <li>
-                    <a class="page-scroll" href="#about">About</a>
-                </li>            
-                <li>
-                    <a class="page-scroll" href="#services">Services</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-</nav>
-            <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>{{ page.title }}</h1>
-                        <hr class="intro-divider">
-                        <h3>{{ page.subTitle }}</h3>
-                        <!--<ul class="list-inline intro-social-buttons">
-                            {% for social in site.social %}
-                            <li>
-                                <a href="{{ social.url }}" class="btn btn-default"><i class="fa fa-{{ social.title }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
-                            </li>
-                            {% endfor %}
-                        </ul>-->
-                    </div>
-                </div>
+              </button>
+              <a class="navbar-brand" href="#"><img src="../img/logo.png" style="margin-top:-1em;margin-right:.5em;">IfyGem Educational Services</a>
             </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
 
-        </div>
-        <!-- /.container -->
-        </div>
+      </div>
+    </div>
 
-	</div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <div class="first-slide img-response" style="background-image:url('../img/grad3.jpg'); height:500px;width:100%;"></div>
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Study Abroad</h1>
+              <p>Tap into scholarship opportunities offered by institutions abroad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="../img/grad2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Undergraduate and Post Graduate Programmes</h1>
+              <p>Wide range of courses for undergraduate and post graduate admissions.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="../img/youth.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Quality education is the best gift you can give your kids, enroll them today!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+
+
 	<!-- /.intro-header -->
 </section>
