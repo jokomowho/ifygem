@@ -11,5 +11,6 @@ description: |
 	<li><h4>International Baccalaureate?</h4></li>
 	<li><h4>Undergraduate and Post Graduate Programmes?</h4></li>
 	<li><h4>Capacity Building?</h4></li>
+	<li><h4>School Web Portal?</h4></li>
 </ul>
 
