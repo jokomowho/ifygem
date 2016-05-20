@@ -7,6 +7,11 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    $('.marquee').marquee({
+          duration: 40000,
+          pauseOnHover: true,
+          duplicated: true,
+      });
 });
 
 // Highlight the top nav as scrolling occurs
