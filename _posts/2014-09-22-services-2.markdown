@@ -2,7 +2,7 @@
 layout: default
 img: monitor.jpg
 category: Services
-title: Would you like to
+title: What would you like?
 description: |
 ---
 <ul style="font-weight:300; padding-left:1.3em;">

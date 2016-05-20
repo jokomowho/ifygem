@@ -73,14 +73,13 @@ h6 {
   height: 500px;
   background-color: #777;
 }
-.carousel-inner > .item > img {
+.carousel-inner > .item > .img-response {
   position: absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   height: 500px;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -216,7 +215,7 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 40px 0;
     color: #f8f8f8;
     /*background: url(../img/banner-bg.jpg) no-repeat center center;*/
     background-size: cover;
@@ -262,6 +261,9 @@ h6 {
         float: left;
         margin-top: 15px;
     }
+    .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+        border-color: transparent;
+    }
 }
 
 @media(max-width:767px) {
@@ -280,8 +282,22 @@ h6 {
     ul.banner-social-buttons > li:last-child {
         margin-bottom: 0;
     }
+    .navbar-brand > img{
+        margin-top: 1em;
+        max-width: 260px;
+    }
+    .navbar-toggle{
+        background-color: #080808;
+    }
 }
-
+@media(max-width: 480px){
+    .navbar-toggle{
+        display: none;
+    }
+    .navbar-brand > img{
+        max-width: 280px;
+    }
+}
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
